@@ -11,6 +11,8 @@ menuIcon.onclick=()=> {
 document.addEventListener("DOMContentLoaded", function() {
     const viewMoreLink = document.getElementById("viewMoreLink");
     const moreContent = document.getElementById("moreContent");
+    const ser_1_btn=document.getElementById("Serv-1-btn");
+    const ser_1_con=document.getElementById("service-1");
 
      
     viewMoreLink.addEventListener("click", function(event) {
@@ -24,8 +26,11 @@ document.addEventListener("DOMContentLoaded", function() {
             moreContent.style.display = "none";
             viewMoreLink.textContent = "Read More"; // Optionally change link text
         }
+        
+        
     });
 });
+
 
 //scroll section active link 
 
@@ -84,3 +89,5 @@ const typed = new Typed('.multiText',{
     backDelay:1000,
     loop:true
 });
+
+//send email by web3forms website

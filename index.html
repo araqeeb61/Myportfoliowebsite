@@ -76,20 +76,20 @@
             <div class="services-box">
                 <i class="fa-solid fa-gamepad"></i>
                 <h3>Game Development</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quia natus a totam dolorem fugit numquam aspernatur corporis, sapiente cupiditate.</p>
-                <a href="#" class="btn">Read More</a>
+                <p>I develop 2D and 3D hyper-casual games for Android in Unity. Just provide your assets and design, and I'll handle the rest!</p>
+                <a href="#" class="btn" id="Serv-2-btn">Read More</a>
             </div>
             <div class="services-box">
                 <i class="fa-solid fa-magnifying-glass-chart"></i>
                 <h3>Data Analyst</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quia natus a totam dolorem fugit numquam aspernatur corporis, sapiente cupiditate.</p>
-                <a href="#" class="btn">Read More</a>
+                <p>I analyze data to uncover insights that drive informed decisions. From cleaning data to creating reports, I help you maximize its value.</p>
+                <a href="#" class="btn" id="Serv-2-btn">Read More</a>
             </div>
             <div class="services-box">
                 <i class="fa-solid fa-code"></i>
                 <h3>Web Development</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quia natus a totam dolorem fugit numquam aspernatur corporis, sapiente cupiditate.</p>
-                <a href="#" class="btn">Read More</a>
+                <p>I create custom, responsive websites that are fast, secure, and tailored to your needs. From design to development.</p>
+                <a href="#" class="btn" id="Serv-3-btn">Read More</a>
             </div>
         </div>
     </section>
@@ -99,10 +99,10 @@
         <h2 class="heading">Latest <span>Projects</span></h2>
         <div class="portfolio-container">
             <div class="portfolio-box">
-                <img src="OIP.jpeg" alt="Project">
+                <img src="Froggy's fate image.png" alt="Project">
                 <div class="portfolio-layer">
-                    <h4>Game Development</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <h4>Froggy's Fate </h4>
+                    <p>A 3d Android game works on slingshot mechanism and developed on Unity 3D.</p>
                    <a href="#"> <i class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
             </div>
@@ -149,16 +149,17 @@
     <section class="contact" id="contact">
         <h2 class="heading">Contact <Span>Me</Span></h2>
 
-        <form action="#">
+        <form action="https://api.web3forms.com/submit" method="POST">
             <div class="input-box">
-                <input type="text" placeholder="Full Name">
-                <input type="email" placeholder="Email Address">
+                <input type="hidden" name="access_key" value="5140a0e8-6078-4e4d-8e5d-2685912ea96a">
+                <input type="text" name="FullName" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="Email Address" required>
             </div>
             <div class="input-box">
-                <input type="number" placeholder="Mobile Number">
-                <input type="text" placeholder="Email Subject">
+                <input type="number" name="number " placeholder="Mobile Number" required>
+                <input type="text" name="Subject " placeholder="Email Subject" required>
             </div>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <textarea name="Message" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
             <input type="submit" value="Send Message" class="btn">
         </form>
     </section>
@@ -177,6 +178,7 @@
         </div>
     </footer>
 
+</script>
 <!--scroll reveal js-->
 <script src="https://unpkg.com/scrollreveal"></script>
 <!--typed js-->
